@@ -13,7 +13,7 @@ source:
     - 0001-Relax-dependencies.patch                        #[x86_64]
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   host:
