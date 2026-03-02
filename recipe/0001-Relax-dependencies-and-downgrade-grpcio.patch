@@ -1,20 +1,23 @@
-From b8eeeac25c390b7dba6da5858d3c369d416182c6 Mon Sep 17 00:00:00 2001
-From: ArchanaShinde1 <archana.shinde2504@gmail.com>
-Date: Tue, 27 Feb 2024 16:16:40 +0000
-Subject: [PATCH] Update patch
+From bbc956b6806c1c66743ee2dad24b6e1d7083a5f9 Mon Sep 17 00:00:00 2001
+From: Archana-Shinde2 <archana.shinde2@ibm.com>
+Date: Mon, 2 Mar 2026 08:50:37 +0000
+Subject: [PATCH] Changed pins
 
 ---
- sdks/python/pyproject.toml |  6 +++---
+ sdks/python/pyproject.toml |  8 ++++----
  sdks/python/setup.py       | 21 +++++++++++----------
- 2 files changed, 14 insertions(+), 13 deletions(-)
+ 2 files changed, 15 insertions(+), 14 deletions(-)
 
 diff --git a/sdks/python/pyproject.toml b/sdks/python/pyproject.toml
-index d185c45f619..eec5e738b10 100644
+index d185c45f619..091fc021017 100644
 --- a/sdks/python/pyproject.toml
 +++ b/sdks/python/pyproject.toml
-@@ -21,16 +21,16 @@
+@@ -19,18 +19,18 @@
+ # this is the minimum requirements for the build system to execute.
+ [build-system]
  requires = [
-     "setuptools",
+-    "setuptools",
++    "setuptools<81",
      "wheel>=0.36.0",
 -    "grpcio-tools==1.53.0",
 +#    "grpcio-tools==1.53.0",
@@ -34,7 +37,7 @@ index d185c45f619..eec5e738b10 100644
 \ No newline at end of file
 +build-backend = "setuptools.build_meta"
 diff --git a/sdks/python/setup.py b/sdks/python/setup.py
-index 7e6d2217d75..0f3e0643b28 100644
+index 7e6d2217d75..9a296453c16 100644
 --- a/sdks/python/setup.py
 +++ b/sdks/python/setup.py
 @@ -148,17 +148,17 @@ elif sys.platform == 'win32' or sys.platform == 'cygwin':
