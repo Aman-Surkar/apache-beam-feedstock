@@ -1,7 +1,7 @@
-From 9100958ed11a1611c9bb500807bbcae20d30d98d Mon Sep 17 00:00:00 2001
-From: Archana-Shinde2 <archana.shinde2@ibm.com>
-Date: Mon, 2 Mar 2026 11:32:18 +0000
-Subject: [PATCH] Changed Pins
+From d888d95e428f2cfe9aabd516fbf5d563f35219c1 Mon Sep 17 00:00:00 2001
+From: Aman-Surkar1 <Aman.Surkar1@ibm.com>
+Date: Fri, 6 Mar 2026 12:48:16 +0000
+Subject: [PATCH] Changed pins
 
 ---
  sdks/python/pyproject.toml |  6 +++---
